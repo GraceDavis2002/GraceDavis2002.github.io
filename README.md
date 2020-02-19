@@ -1,2 +1,2 @@
 # GraceDavis2002.github.io
-Education
+https://github.com/GraceDavis2002/GraceDavis2002.github.io
