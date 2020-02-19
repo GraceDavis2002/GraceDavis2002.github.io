@@ -1,0 +1,73 @@
+<html>
+    <head>
+      <link type="text/css" rel="stylesheet" href="main.css"/>
+     <title> My Website was Destroyed. </title>
+     <script>
+     function banner(){
+var text = confirm("Did You Really Want to Click on My Banner?");
+return text;
+</script>
+<a onclick="return banner()"
+href="http://simplystem.com">
+<header> Dissapointment </header>
+</a>
+  <nav>
+   <ul id= "navmenu"
+<li class="navitem">  <a href="index.html"> Home </a> </li>
+<li class="navitem"> <a href="games.html"> Games </a> </li>
+<li class="navitem"> <a href="videos.html"> Videos </a> </li>
+</ul>
+</nav>
+<div class="rightside">
+Hey guys! My website was completely destroyed because of one mistake that I made (pressed one wrong button if we are being specific) so now Im just depressed and my website is ugly. yay!
+</div>
+<div class="leftside">
+  This was supposed to be about lattes and now its just me crying.
+   </div>
+   <div class="clearfloat"></div>
+   <img width="24%" src="https://res.cloudinary.com/teepublic/image/private/s--wPOg3QSQ--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1570873293/production/designs/6298890_0.jpg" />
+    
+    </head>
+ <body>
+   <h2> TRIVIA QUESTION: </h2>
+   <p> What is my favorite latte flavor??</p>
+   <form>
+     <div id="response" class= "rightside"> </div>
+<input type="radio" name="trivia" value="yes"> Vanilla!<br>
+<input type="radio" name="trivia" value="no"> Mocha! <br>
+<input type="radio" name="trivia" value="no"> Guava! <br>
+<input type="radio" name="trivia" value="no"> Honey! <br>
+<input onclick="answer()" id= button type="button" value="Click Here">
+</form>
+ <script>
+function banner(){
+var text = confirm("Did You Really Want to Click on My Banner?");
+return text;
+}
+
+function answer(){
+var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = "";
+for( var i = 0; i < radio.length; i++) {
+  if(radio[i].value == "yes" && radio[i].checked == true) {
+  selection = true;
+} //end if statement
+} //end for loop
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>";
+} else {
+message = message + "<b><p style='color:orange'>Try again my friend.</p></b>";
+}
+document.getElementById("response").innerHTML = message;
+} //end function answer
+ </script>
+ <i class="fa fa-google-plus fa-fw"></i></a></li><li><a href="https://twitter.com/chimuadventures" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li><li><a href="https://instagram.com/chimuadventures" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li><li><a href="https://www.youtube.com/user/chimuadventures" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>							</ul>
+														<form class="navbar-form navbar-right navbar-search" role="search" method="get" action="https://www.chimuadventures.com/blog/">
+	<input class="favorite styled"
+       type="button"
+       value="Add to favorites">
+
+   
+ </body>
+</html>
